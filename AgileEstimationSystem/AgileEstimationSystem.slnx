@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/backend/">
+    <Project Path="backend/AgileEstimation.API/AgileEstimation.API.csproj" />
+    <Project Path="backend/AgileEstimation.Application/AgileEstimation.Application.csproj" />
+    <Project Path="backend/AgileEstimation.Domain/AgileEstimation.Domain.csproj" />
+    <Project Path="backend/AgileEstimation.Infrastructure/AgileEstimation.Infrastructure.csproj" />
+    <Project Path="backend/AgileEstimation.Persistence/AgileEstimation.Persistence.csproj" />
+    <Project Path="backend/AgileEstimation.Shared/AgileEstimation.Shared.csproj" />
+  </Folder>
+</Solution>
