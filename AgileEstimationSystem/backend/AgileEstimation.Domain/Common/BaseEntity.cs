@@ -2,20 +2,24 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AgileEstimation.Domain.Entities
+namespace AgileEstimation.Domain.Common;
+
+public abstract class BaseEntity
 {
-    internal class BaseEntity
+    public Guid Id { get; protected set; }
+
+    public DateTime CreatedAt { get; protected set; }
+
+    public DateTime? UpdatedAt { get; protected set; }
+
+    protected BaseEntity()
     {
-        public Guid Id { get; protected set; } = Guid.NewGuid();
+        Id = Guid.NewGuid();
+        CreatedAt = DateTime.UtcNow;
+    }
 
-        public DateTime CreatedAt { get; protected set; } = DateTime.UtcNow;
-
-        public DateTime? UpdatedAt { get; protected set; }
-
-        public void MarkAsUpdated()
-        {
-            UpdatedAt = DateTime.UtcNow;
-        }
-
+    protected void MarkUpdated()
+    {
+        UpdatedAt = DateTime.UtcNow;
     }
 }

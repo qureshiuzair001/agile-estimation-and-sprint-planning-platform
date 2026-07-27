@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AgileEstimation.Infrastructure/1.0.0": {
+        "dependencies": {
+          "AgileEstimation.Application": "1.0.0",
+          "AgileEstimation.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AgileEstimation.Infrastructure.dll": {}
+        }
+      },
+      "AgileEstimation.Application/1.0.0": {
+        "dependencies": {
+          "AgileEstimation.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AgileEstimation.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AgileEstimation.Domain/1.0.0": {
+        "runtime": {
+          "AgileEstimation.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AgileEstimation.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AgileEstimation.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AgileEstimation.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

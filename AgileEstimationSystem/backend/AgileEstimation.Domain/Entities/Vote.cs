@@ -1,10 +1,11 @@
-﻿using System;
+﻿using AgileEstimation.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AgileEstimation.Domain.Entities
 {
-    internal class Vote : BaseEntity
+    public class Vote : BaseEntity
     {
         public Guid TicketId { get; private set; }
 

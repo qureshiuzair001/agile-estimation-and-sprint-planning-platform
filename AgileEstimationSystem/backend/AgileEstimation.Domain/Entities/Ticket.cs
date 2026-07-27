@@ -1,11 +1,12 @@
-﻿using AgileEstimation.Domain.Enums;
+﻿using AgileEstimation.Domain.Common;
+using AgileEstimation.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AgileEstimation.Domain.Entities
 {
-    internal class Ticket : BaseEntity
+    public class Ticket : BaseEntity
     {
         public Guid SessionId { get; private set; }
 
@@ -23,5 +24,14 @@ namespace AgileEstimation.Domain.Entities
 
         public ICollection<Vote> Votes { get; private set; }
             = new List<Vote>();
+
+        public void CompleteEstimation(int estimate)
+        {
+            FinalEstimate = estimate;
+
+            Status = TicketStatus.Estimated;
+
+            MarkUpdated();
+        }
     }
 }

@@ -8,6 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgileEstimation.Application\AgileEstimation.Application.csproj" />
+    <ProjectReference Include="..\AgileEstimation.Infrastructure\AgileEstimation.Infrastructure.csproj" />
+    <ProjectReference Include="..\AgileEstimation.Persistence\AgileEstimation.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

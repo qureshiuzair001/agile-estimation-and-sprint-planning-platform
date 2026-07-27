@@ -1,0 +1,16 @@
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\bin\Debug\net10.0\AgileEstimation.Application.deps.json
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\bin\Debug\net10.0\AgileEstimation.Application.dll
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\bin\Debug\net10.0\AgileEstimation.Application.pdb
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\bin\Debug\net10.0\AgileEstimation.Domain.dll
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\bin\Debug\net10.0\AgileEstimation.Domain.pdb
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\AgileEstimation.Application.csproj.AssemblyReference.cache
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\AgileEstimation.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\AgileEstimation.Application.AssemblyInfoInputs.cache
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\AgileEstimation.Application.AssemblyInfo.cs
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\AgileEstimation.Application.csproj.CoreCompileInputs.cache
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\AgileEstimation.Application.sourcelink.json
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\AgileEst.C19B4A79.Up2Date
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\AgileEstimation.Application.dll
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\refint\AgileEstimation.Application.dll
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\AgileEstimation.Application.pdb
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Application\obj\Debug\net10.0\ref\AgileEstimation.Application.dll

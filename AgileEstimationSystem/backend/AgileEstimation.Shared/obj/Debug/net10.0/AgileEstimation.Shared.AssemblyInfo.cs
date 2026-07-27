@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgileEstimation.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+893044ba009ea487dc69f9465a9fa60163c4341e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b9560affac61dac049c2f1c146ab4e9ad006aad")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgileEstimation.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgileEstimation.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

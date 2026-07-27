@@ -1,0 +1,12 @@
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\bin\Debug\net10.0\AgileEstimation.Shared.deps.json
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\bin\Debug\net10.0\AgileEstimation.Shared.dll
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\bin\Debug\net10.0\AgileEstimation.Shared.pdb
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\obj\Debug\net10.0\AgileEstimation.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\obj\Debug\net10.0\AgileEstimation.Shared.AssemblyInfoInputs.cache
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\obj\Debug\net10.0\AgileEstimation.Shared.AssemblyInfo.cs
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\obj\Debug\net10.0\AgileEstimation.Shared.csproj.CoreCompileInputs.cache
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\obj\Debug\net10.0\AgileEstimation.Shared.sourcelink.json
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\obj\Debug\net10.0\AgileEstimation.Shared.dll
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\obj\Debug\net10.0\refint\AgileEstimation.Shared.dll
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\obj\Debug\net10.0\AgileEstimation.Shared.pdb
+D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Shared\obj\Debug\net10.0\ref\AgileEstimation.Shared.dll

@@ -1,11 +1,12 @@
 ﻿using AgileEstimation.Domain.Enums;
+using AgileEstimation.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AgileEstimation.Domain.Entities
 {
-    internal class User
+    public class User : BaseEntity
     {
         public string Username { get; private set; } = string.Empty;
         
@@ -25,8 +26,35 @@ namespace AgileEstimation.Domain.Entities
 
         public ICollection<Vote> Votes { get; private set; }
             = new List<Vote>();
+
+        public User(
+            string username,
+            string email,
+            string passwordHash,
+            UserRole role)
+        {
+            Username = username;
+            Email = email;
+            PasswordHash = passwordHash;
+            Role = role;
+        }
+
+        public void Deactivate()
+        {
+            IsActive = false;
+            MarkUpdated();
+        }
+
+        public void Activate()
+        {
+            IsActive = true;
+            MarkUpdated();
+        }
+
+
     }
 
 
+
 }
-}
+

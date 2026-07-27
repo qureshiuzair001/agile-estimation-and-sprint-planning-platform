@@ -1,11 +1,12 @@
-﻿using AgileEstimation.Domain.Enums;
+﻿using AgileEstimation.Domain.Common;
+using AgileEstimation.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AgileEstimation.Domain.Entities
 {
-    internal class Session : BaseEntity
+    public class Session : BaseEntity
     {
         public string SessionCode { get; private set; } = string.Empty;
 
@@ -22,5 +23,30 @@ namespace AgileEstimation.Domain.Entities
 
         public ICollection<Ticket> Tickets { get; private set; }
             = new List<Ticket>();
+
+        public void StartVoting()
+        {
+            if (Status != SessionStatus.Waiting)
+                throw new InvalidOperationException(
+                    "Only waiting sessions can start.");
+
+            Status = SessionStatus.Active;
+
+            MarkUpdated();
+        }
+
+        public void RevealVotes()
+        {
+            Status = SessionStatus.Revealed;
+
+            MarkUpdated();
+        }
+
+        public void Close()
+        {
+            Status = SessionStatus.Closed;
+
+            MarkUpdated();
+        }
     }
 }

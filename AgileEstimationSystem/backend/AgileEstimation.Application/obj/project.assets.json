@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "AgileEstimation.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/AgileEstimation.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AgileEstimation.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AgileEstimation.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AgileEstimation.Domain/AgileEstimation.Domain.csproj",
+      "msbuildProject": "../AgileEstimation.Domain/AgileEstimation.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "AgileEstimation.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
+              "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
