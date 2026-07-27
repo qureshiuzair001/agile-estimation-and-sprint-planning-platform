@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\entities\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\entities\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\entities\\sessionparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\entities\\sessionparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\enums\\sessionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\enums\\sessionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +46,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vote.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\Vote.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Entities\\Vote.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\Vote.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Entities\\Vote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T07:36:04.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\Ticket.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Entities\\Ticket.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\Ticket.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Entities\\Ticket.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T07:35:13.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SessionParticipant.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\SessionParticipant.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Entities\\SessionParticipant.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\SessionParticipant.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Entities\\SessionParticipant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T07:32:35.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\Session.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Entities\\Session.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\Session.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Entities\\Session.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T07:30:27.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T07:27:30.454Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketStatus.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Enums\\TicketStatus.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Enums\\TicketStatus.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Enums\\TicketStatus.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Enums\\TicketStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T07:27:07.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SessionStatus.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Enums\\SessionStatus.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Enums\\SessionStatus.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Enums\\SessionStatus.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Enums\\SessionStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T07:26:07.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T07:19:13.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T07:05:01.692Z",
+              "EditorCaption": ""
             }
           ]
         }
