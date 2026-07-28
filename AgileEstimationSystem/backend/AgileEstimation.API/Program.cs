@@ -8,6 +8,7 @@ using Microsoft.OpenApi.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using AgileEstimation.Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -58,6 +59,9 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IJwtService, JwtService>();
 builder.Services.AddScoped<IPasswordHasher, PasswordHasherService>();
 builder.Services.AddPersistence(builder.Configuration);
+builder.Services.AddScoped<ISessionRepository, SessionRepository>();
+builder.Services.AddScoped<ISessionParticipantRepository, SessionParticipantRepository>();
+builder.Services.AddScoped<ISessionService, SessionService>();
 
 // Configure JWT Authentication
 var jwt = builder.Configuration.GetSection("Jwt");

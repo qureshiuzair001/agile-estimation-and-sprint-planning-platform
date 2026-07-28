@@ -40,5 +40,101 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.SessionsController",
+    "Method": "CreateSession",
+    "RelativePath": "api/Sessions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AgileEstimation.Application.DTOs.Session.CreateSessionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.SessionsController",
+    "Method": "GetSession",
+    "RelativePath": "api/Sessions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.SessionsController",
+    "Method": "Close",
+    "RelativePath": "api/Sessions/{id}/close",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.SessionsController",
+    "Method": "Leave",
+    "RelativePath": "api/Sessions/{id}/leave",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.SessionsController",
+    "Method": "GetParticipants",
+    "RelativePath": "api/Sessions/{id}/participants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.SessionsController",
+    "Method": "JoinSession",
+    "RelativePath": "api/Sessions/join",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AgileEstimation.Application.DTOs.Session.JoinSessionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
