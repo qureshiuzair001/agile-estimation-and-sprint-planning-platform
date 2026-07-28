@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.api\\controllers\\sessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|solutionrelative:backend\\agileestimation.api\\controllers\\sessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\interfaces\\ivoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\interfaces\\ivoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\interfaces\\ivoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\interfaces\\ivoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\dtos\\voting\\revealvotesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\dtos\\voting\\revealvotesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\dtos\\voting\\voteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\dtos\\voting\\voteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\dtos\\voting\\castvoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\dtos\\voting\\castvoterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.domain\\entities\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E8FABF-6126-A05F-4FD7-F6C86C8DA4DD}|backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj|solutionrelative:backend\\agileestimation.domain\\entities\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.api\\hubs\\planningpokerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|solutionrelative:backend\\agileestimation.api\\hubs\\planningpokerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7BCF3C-6818-AF92-AC7E-0447116AF124}|backend\\AgileEstimation.Infrastructure\\AgileEstimation.Infrastructure.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.infrastructure\\services\\voteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7BCF3C-6818-AF92-AC7E-0447116AF124}|backend\\AgileEstimation.Infrastructure\\AgileEstimation.Infrastructure.csproj|solutionrelative:backend\\agileestimation.infrastructure\\services\\voteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|solutionrelative:backend\\agileestimation.api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|solutionrelative:backend\\agileestimation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7BCF3C-6818-AF92-AC7E-0447116AF124}|backend\\AgileEstimation.Infrastructure\\AgileEstimation.Infrastructure.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.infrastructure\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7BCF3C-6818-AF92-AC7E-0447116AF124}|backend\\AgileEstimation.Infrastructure\\AgileEstimation.Infrastructure.csproj|solutionrelative:backend\\agileestimation.infrastructure\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C41C1691-1540-6C93-413F-20F16A8826A5}|backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.persistence\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C41C1691-1540-6C93-413F-20F16A8826A5}|backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj|solutionrelative:backend\\agileestimation.persistence\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\dtos\\ticket\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\dtos\\ticket\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\dtos\\ticket\\updateticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\dtos\\ticket\\updateticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|d:\\agile-estimation-and-sprint-planning-platform\\agileestimationsystem\\backend\\agileestimation.application\\dtos\\ticket\\createticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B25C426-71DD-C172-A5EE-06EC51DDD577}|backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj|solutionrelative:backend\\agileestimation.application\\dtos\\ticket\\createticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +78,232 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SessionsController.cs",
-              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Controllers\\SessionsController.cs",
-              "RelativeDocumentMoniker": "backend\\AgileEstimation.API\\Controllers\\SessionsController.cs",
-              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Controllers\\SessionsController.cs",
-              "RelativeToolTip": "backend\\AgileEstimation.API\\Controllers\\SessionsController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHAAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IVoteRepository.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\Interfaces\\IVoteRepository.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\Interfaces\\IVoteRepository.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\Interfaces\\IVoteRepository.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\Interfaces\\IVoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T13:00:12.306Z",
+              "WhenOpened": "2026-07-28T18:24:16.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vote.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\Vote.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Domain\\Entities\\Vote.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\Entities\\Vote.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Domain\\Entities\\Vote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T18:18:29.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlanningPokerHub.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Hubs\\PlanningPokerHub.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.API\\Hubs\\PlanningPokerHub.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Hubs\\PlanningPokerHub.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.API\\Hubs\\PlanningPokerHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T18:18:16.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VoteResponse.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Voting\\VoteResponse.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\DTOs\\Voting\\VoteResponse.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Voting\\VoteResponse.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\DTOs\\Voting\\VoteResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T18:16:42.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CastVoteRequest.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Voting\\CastVoteRequest.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\DTOs\\Voting\\CastVoteRequest.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Voting\\CastVoteRequest.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\DTOs\\Voting\\CastVoteRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T18:15:46.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IVoteService.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\Interfaces\\IVoteService.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\Interfaces\\IVoteService.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\Interfaces\\IVoteService.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\Interfaces\\IVoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T18:16:55.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RevealVotesResponse.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Voting\\RevealVotesResponse.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\DTOs\\Voting\\RevealVotesResponse.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Voting\\RevealVotesResponse.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\DTOs\\Voting\\RevealVotesResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T18:15:57.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VoteService.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\Services\\VoteService.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Infrastructure\\Services\\VoteService.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\Services\\VoteService.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Infrastructure\\Services\\VoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T18:17:24.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.API\\Controllers\\TicketsController.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.API\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:52:31.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.API\\Program.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Program.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.API\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:45:52.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Infrastructure\\Services\\TicketService.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\Services\\TicketService.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Infrastructure\\Services\\TicketService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:44:20.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Persistence\\Repositories\\TicketRepository.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Persistence\\Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:43:05.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\Interfaces\\ITicketService.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\Interfaces\\ITicketService.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\Interfaces\\ITicketService.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\Interfaces\\ITicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:32:37.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\Interfaces\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\Interfaces\\ITicketRepository.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\Interfaces\\ITicketRepository.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\Interfaces\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:32:00.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketResponse.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Ticket\\TicketResponse.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\DTOs\\Ticket\\TicketResponse.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Ticket\\TicketResponse.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\DTOs\\Ticket\\TicketResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:31:35.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateTicketRequest.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Ticket\\UpdateTicketRequest.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\DTOs\\Ticket\\UpdateTicketRequest.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Ticket\\UpdateTicketRequest.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\DTOs\\Ticket\\UpdateTicketRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:31:21.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateTicketRequest.cs",
+              "DocumentMoniker": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Ticket\\CreateTicketRequest.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.Application\\DTOs\\Ticket\\CreateTicketRequest.cs",
+              "ToolTip": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\DTOs\\Ticket\\CreateTicketRequest.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.Application\\DTOs\\Ticket\\CreateTicketRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T14:30:48.122Z",
+              "EditorCaption": ""
             }
           ]
         }

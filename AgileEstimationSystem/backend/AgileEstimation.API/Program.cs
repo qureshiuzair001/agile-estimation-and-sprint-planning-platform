@@ -62,6 +62,8 @@ builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddScoped<ISessionRepository, SessionRepository>();
 builder.Services.AddScoped<ISessionParticipantRepository, SessionParticipantRepository>();
 builder.Services.AddScoped<ISessionService, SessionService>();
+builder.Services.AddScoped<ITicketRepository, TicketRepository>();
+builder.Services.AddScoped<ITicketService, TicketService>();
 
 // Configure JWT Authentication
 var jwt = builder.Configuration.GetSection("Jwt");

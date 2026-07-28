@@ -1,20 +1,34 @@
 ﻿using AgileEstimation.Domain.Common;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace AgileEstimation.Domain.Entities
+namespace AgileEstimation.Domain.Entities;
+
+public class Vote : BaseEntity
 {
-    public class Vote : BaseEntity
+    public Guid TicketId { get; private set; }
+
+    public Ticket Ticket { get; private set; } = null!;
+
+    public Guid UserId { get; private set; }
+
+    public User User { get; private set; } = null!;
+
+    public int EstimateValue { get; private set; }
+
+    // Required by EF Core
+    private Vote()
     {
-        public Guid TicketId { get; private set; }
+    }
 
-        public Ticket Ticket { get; private set; } = null!;
+    public Vote(Guid ticketId, Guid userId, int estimateValue)
+    {
+        TicketId = ticketId;
+        UserId = userId;
+        EstimateValue = estimateValue;
+    }
 
-        public Guid UserId { get; private set; }
-
-        public User User { get; private set; } = null!;
-
-        public int EstimateValue { get; private set; }
+    public void UpdateVote(int estimateValue)
+    {
+        EstimateValue = estimateValue;
+        MarkUpdated();
     }
 }
