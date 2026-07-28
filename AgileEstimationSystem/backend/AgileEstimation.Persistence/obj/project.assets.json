@@ -38,6 +38,19 @@
           }
         }
       },
+      "FluentValidation/12.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1252,6 +1265,20 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "AgileEstimation.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "AgileEstimation.Domain": "1.0.0",
+          "FluentValidation": "12.1.1"
+        },
+        "compile": {
+          "bin/placeholder/AgileEstimation.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AgileEstimation.Application.dll": {}
+        }
+      },
       "AgileEstimation.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1303,6 +1330,21 @@
         "lib/net8.0/Azure.Identity.xml",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FluentValidation/12.1.1": {
+      "sha512": "EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "type": "package",
+      "path": "fluentvalidation/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.1.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -3669,6 +3711,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "AgileEstimation.Application/1.0.0": {
+      "type": "project",
+      "path": "../AgileEstimation.Application/AgileEstimation.Application.csproj",
+      "msbuildProject": "../AgileEstimation.Application/AgileEstimation.Application.csproj"
+    },
     "AgileEstimation.Domain/1.0.0": {
       "type": "project",
       "path": "../AgileEstimation.Domain/AgileEstimation.Domain.csproj",
@@ -3677,6 +3724,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "AgileEstimation.Application >= 1.0.0",
       "AgileEstimation.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.10",
@@ -3717,6 +3765,9 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj": {
+              "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj"
+            },
             "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
               "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj"
             }

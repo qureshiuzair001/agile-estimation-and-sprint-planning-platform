@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\AgileEstimation.Application\AgileEstimation.Application.csproj" />
     <ProjectReference Include="..\AgileEstimation.Domain\AgileEstimation.Domain.csproj" />
   </ItemGroup>
 
@@ -19,7 +20,6 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
   <PropertyGroup>

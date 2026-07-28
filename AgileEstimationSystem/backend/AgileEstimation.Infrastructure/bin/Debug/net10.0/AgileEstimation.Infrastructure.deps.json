@@ -9,15 +9,148 @@
       "AgileEstimation.Infrastructure/1.0.0": {
         "dependencies": {
           "AgileEstimation.Application": "1.0.0",
-          "AgileEstimation.Domain": "1.0.0"
+          "AgileEstimation.Domain": "1.0.0",
+          "BCrypt.Net-Next": "4.2.0",
+          "Microsoft.Extensions.Configuration": "10.0.10",
+          "System.IdentityModel.Tokens.Jwt": "8.21.0"
         },
         "runtime": {
           "AgileEstimation.Infrastructure.dll": {}
         }
       },
+      "BCrypt.Net-Next/4.2.0": {
+        "runtime": {
+          "lib/net10.0/BCrypt-Net-Next.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "FluentValidation/12.1.1": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.Cryptography/10.0.2": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Bcl.Cryptography.dll": {
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/10.0.10": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.10",
+          "Microsoft.Extensions.Primitives": "10.0.10"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/10.0.10": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.10"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/10.0.10": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/8.21.0": {
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.21.0.0",
+            "fileVersion": "8.21.0.26203"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.21.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.21.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "8.21.0.0",
+            "fileVersion": "8.21.0.26203"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.21.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.21.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.21.0.0",
+            "fileVersion": "8.21.0.26203"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.21.0": {
+        "dependencies": {
+          "Microsoft.Bcl.Cryptography": "10.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.IdentityModel.Logging": "8.21.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.21.0.0",
+            "fileVersion": "8.21.0.26203"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/8.21.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.21.0",
+          "Microsoft.IdentityModel.Tokens": "8.21.0"
+        },
+        "runtime": {
+          "lib/net10.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "8.21.0.0",
+            "fileVersion": "8.21.0.26203"
+          }
+        }
+      },
       "AgileEstimation.Application/1.0.0": {
         "dependencies": {
-          "AgileEstimation.Domain": "1.0.0"
+          "AgileEstimation.Domain": "1.0.0",
+          "FluentValidation": "12.1.1"
         },
         "runtime": {
           "AgileEstimation.Application.dll": {
@@ -41,6 +174,97 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BCrypt.Net-Next/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gwLD2KfCuwQesP17aVh4h6lpiMPEVt5Lbpndo0ej903hNUUTtyxt3ARdDjmuydBRTAUICc7OVKVbaOvc6SQYXA==",
+      "path": "bcrypt.net-next/4.2.0",
+      "hashPath": "bcrypt.net-next.4.2.0.nupkg.sha512"
+    },
+    "FluentValidation/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "path": "fluentvalidation/12.1.1",
+      "hashPath": "fluentvalidation.12.1.1.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Cryptography/10.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LG9Yll3B5aNpxv0+D47g6LiOiKBIlodhcHdQwcYzo8VeexFLGqx5ymetmA2aBRyo9cCcWsQWrFsdbsr8LvmWDw==",
+      "path": "microsoft.bcl.cryptography/10.0.2",
+      "hashPath": "microsoft.bcl.cryptography.10.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/10.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-plJWK2zpWuuyxI8F8s2scx6Je7N1Ajjs6HvYUGKwRnDMWIVIz9FHwAkiT7ASgrvAOd10T0FPVlh9BzAJJME+jg==",
+      "path": "microsoft.extensions.configuration/10.0.10",
+      "hashPath": "microsoft.extensions.configuration.10.0.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/10.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5Vnd2I75DmZCVEjSynIdJ/0EGafgnLQwgR3t2C2/fkjx/nRG+cLwxLLdInoHeCEpkD5K4Ov/g9ZCRYrl4TRsaA==",
+      "path": "microsoft.extensions.configuration.abstractions/10.0.10",
+      "hashPath": "microsoft.extensions.configuration.abstractions.10.0.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/10.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5wu/GrYVd8mG2DVUw3vFJzF+O336TyTGg/Kmcgw9bfwYhCoFiV5lR5QeEmKecJyrW4W54nMfD3p3589E8a7czQ==",
+      "path": "microsoft.extensions.primitives/10.0.10",
+      "hashPath": "microsoft.extensions.primitives.10.0.10.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/8.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XYgEmYpUvng0oYIagDJ+uebboQSnWtCV7q9zMyXlBw6ZqLLCHcmGUb7TpXvQ3HWY4OzbOCUQm2Ac0saPSnwqSw==",
+      "path": "microsoft.identitymodel.abstractions/8.21.0",
+      "hashPath": "microsoft.identitymodel.abstractions.8.21.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iiA5uimwlRe4Drd8YKOaB8IQkgGOjxGjO6mu5zCGFjaEBpB6yNOluZ33zJFXiW5MQYRC6ypMnOXsiR5SPrO+tw==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.21.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.21.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LgIWUUX386xCbvjq2ex8iXGIu2raDWrrIQ4OyYZKaNWMhzvN8YOTbAYMFJC+iHmKnkNBM8g7mLak9KQodldH3g==",
+      "path": "microsoft.identitymodel.logging/8.21.0",
+      "hashPath": "microsoft.identitymodel.logging.8.21.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFnFEl4VrhAJEbqtRrpgfAACgkm6NYo7cWYKYROH00N9/M5OYrRwTP0lHsginnLrqPrseLcSqAueQNRCyGNsdw==",
+      "path": "microsoft.identitymodel.tokens/8.21.0",
+      "hashPath": "microsoft.identitymodel.tokens.8.21.0.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/8.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dKsTkmlpUf/I6g1Aw9joWaZAahXvC0gWGQvkXW1IjZLSefC/4LhQI0tL0VIs64/NZQbl4XnQvLQyu6c7z1pMxg==",
+      "path": "system.identitymodel.tokens.jwt/8.21.0",
+      "hashPath": "system.identitymodel.tokens.jwt.8.21.0.nupkg.sha512"
     },
     "AgileEstimation.Application/1.0.0": {
       "type": "project",

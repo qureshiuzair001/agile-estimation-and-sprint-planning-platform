@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GbIO3+yn6XU=",
+  "dgSpecHash": "B/48T5vYv5Y=",
   "success": true,
   "projectFilePath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512"
+  ],
   "logs": []
 }

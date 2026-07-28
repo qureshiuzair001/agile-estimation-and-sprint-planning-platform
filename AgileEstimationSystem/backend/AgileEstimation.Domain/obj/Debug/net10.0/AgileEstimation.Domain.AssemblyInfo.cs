@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgileEstimation.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b9560affac61dac049c2f1c146ab4e9ad006aad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4b1876c17b96724b76f1cd1a31cdf626a4f1d55")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgileEstimation.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgileEstimation.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
