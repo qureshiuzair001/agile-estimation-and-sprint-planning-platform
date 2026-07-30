@@ -10,6 +10,8 @@ public interface ISessionRepository
 
     Task<Session?> GetByCodeAsync(string sessionCode);
 
+    Task<string?> GetSessionCodeAsync(Guid sessionId);
+
     void Update(Session session);
 
     Task SaveChangesAsync();

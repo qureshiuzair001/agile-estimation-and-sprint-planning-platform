@@ -1,5 +1,7 @@
+using AgileEstimation.API.Hubs;
 using AgileEstimation.Application.Interfaces;
 using AgileEstimation.Infrastructure.Authentication;
+using AgileEstimation.Infrastructure.Services;
 using AgileEstimation.Persistence;
 using AgileEstimation.Persistence.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -8,12 +10,13 @@ using Microsoft.OpenApi.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using AgileEstimation.Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // 1. ADD THIS: Register controllers
 builder.Services.AddControllers();
+
+builder.Services.AddSignalR();
 
 // Configure Swagger with JWT Support
 builder.Services.AddSwaggerGen(options =>
@@ -64,6 +67,8 @@ builder.Services.AddScoped<ISessionParticipantRepository, SessionParticipantRepo
 builder.Services.AddScoped<ISessionService, SessionService>();
 builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 builder.Services.AddScoped<ITicketService, TicketService>();
+builder.Services.AddScoped<IVoteRepository, VoteRepository>();
+builder.Services.AddScoped<IVoteService, VoteService>();
 
 // Configure JWT Authentication
 var jwt = builder.Configuration.GetSection("Jwt");
@@ -81,15 +86,44 @@ builder.Services
             ValidIssuer = jwt["Issuer"],
             ValidAudience = jwt["Audience"],
 
-            IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(jwt["Key"]!)),
+            IssuerSigningKey =
+                new SymmetricSecurityKey(
+                    Encoding.UTF8.GetBytes(jwt["Key"]!))
+        };
 
-            // Add these two lines
-            NameClaimType = JwtRegisteredClaimNames.UniqueName,
-            RoleClaimType = ClaimTypes.Role
+        options.Events = new JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                var accessToken =
+                    context.Request.Query["access_token"];
+
+                var path = context.HttpContext.Request.Path;
+
+                if (!string.IsNullOrEmpty(accessToken) &&
+                    path.StartsWithSegments("/hubs/planning-poker"))
+                {
+                    context.Token = accessToken;
+                }
+
+                return Task.CompletedTask;
+            }
         };
     });
-builder.Services.AddAuthorization();
+    builder.Services.AddAuthorization();
+
+    builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("Frontend", policy =>
+        {
+            policy
+                .WithOrigins("http://localhost:5173")
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials();
+        });
+    });
+
 
 var app = builder.Build();
 
@@ -106,12 +140,15 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors("Frontend");
+
 // Authentication MUST come before Authorization
 app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllers();
 
-
+app.MapHub<PlanningPokerHub>("/hubs/planning-poker");
 
 app.Run();

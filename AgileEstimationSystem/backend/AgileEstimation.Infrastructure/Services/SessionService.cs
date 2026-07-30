@@ -97,18 +97,22 @@ public class SessionService : ISessionService
     }
 
     public async Task<List<ParticipantResponse>>
-GetParticipantsAsync(Guid sessionId)
+    GetParticipantsAsync(Guid sessionId)
     {
         var participants =
             await _participantRepository
                 .GetParticipantsAsync(sessionId);
 
-        return participants.Select(x => new ParticipantResponse
-        {
-            UserId = x.UserId,
-            Username = x.User.Username,
-            IsOnline = x.IsOnline
-        }).ToList();
+        return participants
+            .OrderByDescending(p => p.IsOnline)
+            .ThenBy(p => p.User.Username)
+            .Select(p => new ParticipantResponse
+            {
+                UserId = p.UserId,
+                Username = p.User.Username,
+                IsOnline = p.IsOnline
+            })
+            .ToList();
     }
 
     public async Task LeaveSessionAsync(
@@ -165,5 +169,62 @@ GetParticipantsAsync(Guid sessionId)
 
         return new string(code);
     }
+
+    public async Task UpdateConnectionAsync(
+    Guid sessionId,
+    Guid userId,
+    string connectionId)
+    {
+        var participant =
+            await _participantRepository
+                .GetAsync(sessionId, userId);
+
+        if (participant == null)
+            return;
+
+        participant.Connect(connectionId);
+
+        _participantRepository.Update(participant);
+
+        await _participantRepository.SaveChangesAsync();
+    }
+
+    public async Task<List<ParticipantResponse>?> HandleDisconnectAsync(
+    string connectionId)
+    {
+        var participant =
+            await _participantRepository
+                .GetByConnectionIdAsync(connectionId);
+
+        if (participant == null)
+            return null;
+
+        participant.Disconnect();
+
+        _participantRepository.Update(participant);
+
+        await _participantRepository.SaveChangesAsync();
+
+        return await GetParticipantsAsync(participant.SessionId);
+    }
+
+    public async Task<List<ParticipantResponse>?> HandleDisconnectAndGetParticipantsAsync(
+    string connectionId)
+    {
+        var participant =
+            await _participantRepository.GetByConnectionIdAsync(connectionId);
+
+        if (participant == null)
+            return null;
+
+        participant.Disconnect();
+
+        _participantRepository.Update(participant);
+
+        await _participantRepository.SaveChangesAsync();
+
+        return await GetParticipantsAsync(participant.SessionId);
+    }
+
 
 }

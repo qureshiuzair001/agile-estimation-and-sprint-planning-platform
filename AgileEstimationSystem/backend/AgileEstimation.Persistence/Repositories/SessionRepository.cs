@@ -33,6 +33,14 @@ public class SessionRepository : ISessionRepository
             .FirstOrDefaultAsync(s => s.SessionCode == sessionCode);
     }
 
+    public async Task<string?> GetSessionCodeAsync(Guid sessionId)
+    {
+        return await _context.Sessions
+            .Where(s => s.Id == sessionId)
+            .Select(s => s.SessionCode)
+            .FirstOrDefaultAsync();
+    }
+
     public void Update(Session session)
     {
         _context.Sessions.Update(session);

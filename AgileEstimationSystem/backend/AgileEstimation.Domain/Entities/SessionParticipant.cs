@@ -42,6 +42,7 @@ public class SessionParticipant : BaseEntity
     {
         ConnectionId = connectionId;
         IsOnline = true;
+
         MarkUpdated();
     }
 }

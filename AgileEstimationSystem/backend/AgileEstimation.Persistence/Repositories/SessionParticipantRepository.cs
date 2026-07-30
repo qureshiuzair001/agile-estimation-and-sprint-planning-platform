@@ -47,6 +47,19 @@ public class SessionParticipantRepository : ISessionParticipantRepository
         _context.SessionParticipants.Remove(participant);
     }
 
+    public async Task<SessionParticipant?> GetByConnectionIdAsync(string connectionId)
+    {
+        return await _context.SessionParticipants
+            .Include(p => p.User)
+            .FirstOrDefaultAsync(p => p.ConnectionId == connectionId);
+    }
+
+    public void Update(SessionParticipant participant)
+    {
+        _context.SessionParticipants.Update(participant);
+
+    }
+
     public async Task SaveChangesAsync()
     {
         await _context.SaveChangesAsync();

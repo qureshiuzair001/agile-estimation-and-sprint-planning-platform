@@ -16,7 +16,19 @@ public interface ISessionService
 
     Task<List<ParticipantResponse>> GetParticipantsAsync(Guid sessionId);
 
-    Task LeaveSessionAsync(Guid sessionId, Guid userId);
+    Task UpdateConnectionAsync(
+        Guid sessionId,
+        Guid userId,
+        string connectionId);
 
-    Task CloseSessionAsync(Guid sessionId, Guid moderatorId);
+    Task LeaveSessionAsync(
+        Guid sessionId,
+        Guid userId);
+
+    Task CloseSessionAsync(
+        Guid sessionId,
+        Guid moderatorId);
+
+    Task<List<ParticipantResponse>?> HandleDisconnectAsync(
+        string connectionId);
 }
