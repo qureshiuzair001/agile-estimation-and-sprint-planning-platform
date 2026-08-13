@@ -1,18 +1,18 @@
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Infrastructure.deps.json
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Infrastructure.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Infrastructure.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Application.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Domain.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Application.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Domain.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.csproj.AssemblyReference.cache
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.AssemblyInfoInputs.cache
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.AssemblyInfo.cs
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.csproj.CoreCompileInputs.cache
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.sourcelink.json
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEst.4D620C29.Up2Date
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\refint\AgileEstimation.Infrastructure.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\ref\AgileEstimation.Infrastructure.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Infrastructure.deps.json
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Infrastructure.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Infrastructure.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Application.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Domain.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Application.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\bin\Debug\net10.0\AgileEstimation.Domain.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.AssemblyInfo.cs
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.sourcelink.json
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEst.4D620C29.Up2Date
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\refint\AgileEstimation.Infrastructure.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\AgileEstimation.Infrastructure.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Infrastructure\obj\Debug\net10.0\ref\AgileEstimation.Infrastructure.dll

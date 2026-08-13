@@ -4,6 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0508cd05-5b32-482d-b5ab-fe18f7187c1e</UserSecretsId>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -11,7 +12,16 @@
 		<PackageReference Include="AutoMapper" Version="13.0.1" />
 
 		<PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
-		<PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
+
+		<!--
+		  FluentValidation.AspNetCore (the old auto-validation MVC
+		  integration package) was swapped for the core FluentValidation
+		  package — see AgileEstimation.API.Filters.FluentValidationActionFilter
+		  for why, and matches the version (12.1.1) already referenced by
+		  the Application project so the whole solution is on one version.
+		-->
+		<PackageReference Include="FluentValidation" Version="12.1.1" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.10" />
 
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
@@ -22,6 +32,17 @@
 		<!-- Patched 1.x version of OpenAPI. Resolves the vulnerability without breaking Swashbuckle -->
 		<PackageReference Include="Microsoft.OpenApi" Version="1.6.22" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+
+		<!-- Structured logging (Part 1 finding: referenced in the tech-stack doc, never actually wired up) -->
+		<PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+		<PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+
+		<!-- Health checks (Part 1 finding: requested in the spec, not present).
+		     9.0.0 is intentional, not a typo: this package hasn't published a
+		     10.0.x release yet (verified from your build output), and 9.x
+		     targets netstandard2.0/net8.0 so it runs fine on a net10.0 host. -->
+		<PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="9.0.0" />
 	</ItemGroup>
 
   <ItemGroup>

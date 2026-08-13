@@ -20,6 +20,8 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<Vote> Votes => Set<Vote>();
 
+    public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

@@ -1,4 +1,4 @@
-﻿namespace AgileEstimation.Application.DTOs.Session;
+namespace AgileEstimation.Application.DTOs.Session;
 
 public class CreateSessionRequest
 {

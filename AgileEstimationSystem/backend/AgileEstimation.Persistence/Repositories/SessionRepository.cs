@@ -41,6 +41,15 @@ public class SessionRepository : ISessionRepository
             .FirstOrDefaultAsync();
     }
 
+    public async Task<List<Session>> GetSessionsForUserAsync(Guid userId)
+    {
+        return await _context.Sessions
+            .Where(s => s.ModeratorId == userId ||
+                        s.Participants.Any(p => p.UserId == userId))
+            .OrderByDescending(s => s.CreatedAt)
+            .ToListAsync();
+    }
+
     public void Update(Session session)
     {
         _context.Sessions.Update(session);

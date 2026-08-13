@@ -1,20 +1,20 @@
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Persistence.deps.json
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Persistence.runtimeconfig.json
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Persistence.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Persistence.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Application.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Domain.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Application.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Domain.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.csproj.AssemblyReference.cache
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.AssemblyInfoInputs.cache
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.AssemblyInfo.cs
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.csproj.CoreCompileInputs.cache
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.sourcelink.json
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEst.BD5B28EF.Up2Date
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\refint\AgileEstimation.Persistence.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.genruntimeconfig.cache
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\ref\AgileEstimation.Persistence.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Persistence.deps.json
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Persistence.runtimeconfig.json
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Persistence.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Persistence.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Application.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Domain.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Application.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\bin\Debug\net10.0\AgileEstimation.Domain.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.csproj.AssemblyReference.cache
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.AssemblyInfoInputs.cache
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.AssemblyInfo.cs
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.csproj.CoreCompileInputs.cache
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.sourcelink.json
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEst.BD5B28EF.Up2Date
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\refint\AgileEstimation.Persistence.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\AgileEstimation.Persistence.genruntimeconfig.cache
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Persistence\obj\Debug\net10.0\ref\AgileEstimation.Persistence.dll

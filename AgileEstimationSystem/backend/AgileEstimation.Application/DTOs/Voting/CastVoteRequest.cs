@@ -1,4 +1,4 @@
-﻿namespace AgileEstimation.Application.DTOs.Voting;
+namespace AgileEstimation.Application.DTOs.Voting;
 
 public class CastVoteRequest
 {

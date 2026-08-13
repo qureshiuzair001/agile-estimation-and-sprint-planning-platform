@@ -1,4 +1,4 @@
-﻿namespace AgileEstimation.Application.DTOs.Auth;
+namespace AgileEstimation.Application.DTOs.Auth;
 
 public class LoginRequest
 {

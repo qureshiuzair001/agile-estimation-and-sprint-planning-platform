@@ -17,12 +17,44 @@
   },
   {
     "ContainingType": "AgileEstimation.API.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AgileEstimation.Application.DTOs.Auth.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.AuthController",
     "Method": "Me",
     "RelativePath": "api/Auth/me",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/Auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AgileEstimation.Application.DTOs.Auth.RefreshTokenRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -123,6 +155,22 @@
   },
   {
     "ContainingType": "AgileEstimation.API.Controllers.SessionsController",
+    "Method": "GetSessionByCode",
+    "RelativePath": "api/Sessions/by-code/{sessionCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.SessionsController",
     "Method": "JoinSession",
     "RelativePath": "api/Sessions/join",
     "HttpMethod": "POST",
@@ -138,6 +186,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AgileEstimation.API.Controllers.SessionsController",
+    "Method": "GetMySessions",
+    "RelativePath": "api/Sessions/mine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AgileEstimation.API.Controllers.TicketsController",
     "Method": "Create",
     "RelativePath": "api/Tickets",
@@ -148,6 +206,22 @@
       {
         "Name": "request",
         "Type": "AgileEstimation.Application.DTOs.Ticket.CreateTicketRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.TicketsController",
+    "Method": "GetTicket",
+    "RelativePath": "api/Tickets/{ticketId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -195,6 +269,22 @@
     "Method": "Activate",
     "RelativePath": "api/Tickets/{ticketId}/activate",
     "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgileEstimation.API.Controllers.VotesController",
+    "Method": "GetVotesForTicket",
+    "RelativePath": "api/tickets/{ticketId}/votes",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

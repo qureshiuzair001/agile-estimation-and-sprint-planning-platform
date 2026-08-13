@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\AgileEstimation.Shared.csproj": {}
+    "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\AgileEstimation.Shared.csproj": {}
   },
   "projects": {
-    "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\AgileEstimation.Shared.csproj": {
+    "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\AgileEstimation.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\AgileEstimation.Shared.csproj",
+        "projectUniqueName": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\AgileEstimation.Shared.csproj",
         "projectName": "AgileEstimation.Shared",
-        "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\AgileEstimation.Shared.csproj",
+        "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\AgileEstimation.Shared.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\obj\\",
+        "outputPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

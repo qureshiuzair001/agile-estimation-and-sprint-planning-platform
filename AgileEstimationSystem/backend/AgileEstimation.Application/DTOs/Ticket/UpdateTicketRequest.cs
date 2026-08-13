@@ -1,4 +1,4 @@
-﻿namespace AgileEstimation.Application.DTOs.Ticket;
+namespace AgileEstimation.Application.DTOs.Ticket;
 
 public class UpdateTicketRequest
 {

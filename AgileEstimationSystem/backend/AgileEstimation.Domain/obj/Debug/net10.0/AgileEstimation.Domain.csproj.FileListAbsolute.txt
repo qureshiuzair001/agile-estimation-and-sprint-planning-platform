@@ -1,12 +1,12 @@
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\bin\Debug\net10.0\AgileEstimation.Domain.deps.json
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\bin\Debug\net10.0\AgileEstimation.Domain.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\bin\Debug\net10.0\AgileEstimation.Domain.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.AssemblyInfoInputs.cache
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.AssemblyInfo.cs
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.csproj.CoreCompileInputs.cache
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.sourcelink.json
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\refint\AgileEstimation.Domain.dll
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.pdb
-D:\agile-estimation-and-sprint-planning-platform\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\ref\AgileEstimation.Domain.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\bin\Debug\net10.0\AgileEstimation.Domain.deps.json
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\bin\Debug\net10.0\AgileEstimation.Domain.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\bin\Debug\net10.0\AgileEstimation.Domain.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.AssemblyInfoInputs.cache
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.AssemblyInfo.cs
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.sourcelink.json
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\refint\AgileEstimation.Domain.dll
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\AgileEstimation.Domain.pdb
+D:\Projects\Planning Poker (Update)\agile-estimation-system\AgileEstimationSystem\backend\AgileEstimation.Domain\obj\Debug\net10.0\ref\AgileEstimation.Domain.dll

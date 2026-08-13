@@ -2,6 +2,22 @@
   "version": 4,
   "targets": {
     "net10.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "BCrypt.Net-Next/4.2.0": {
         "type": "package",
         "compile": {
@@ -114,6 +130,23 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Primitives/10.0.10": {
         "type": "package",
         "compile": {
@@ -215,6 +248,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "AgileEstimation.Domain": "1.0.0",
+          "AutoMapper": "13.0.1",
           "FluentValidation": "12.1.1"
         },
         "compile": {
@@ -237,6 +271,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "BCrypt.Net-Next/4.2.0": {
       "sha512": "gwLD2KfCuwQesP17aVh4h6lpiMPEVt5Lbpndo0ej903hNUUTtyxt3ARdDjmuydBRTAUICc7OVKVbaOvc6SQYXA==",
       "type": "package",
@@ -471,6 +520,27 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "sha512": "dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.6.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.Primitives/10.0.10": {
       "sha512": "5wu/GrYVd8mG2DVUw3vFJzF+O336TyTGg/Kmcgw9bfwYhCoFiV5lR5QeEmKecJyrW4W54nMfD3p3589E8a7czQ==",
       "type": "package",
@@ -645,6 +715,7 @@
     "net10.0": [
       "AgileEstimation.Application >= 1.0.0",
       "AgileEstimation.Domain >= 1.0.0",
+      "AutoMapper >= 13.0.1",
       "BCrypt.Net-Next >= 4.2.0",
       "Microsoft.Extensions.Configuration >= 10.0.10",
       "System.IdentityModel.Tokens.Jwt >= 8.21.0"
@@ -657,11 +728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\AgileEstimation.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\AgileEstimation.Infrastructure.csproj",
       "projectName": "AgileEstimation.Infrastructure",
-      "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\AgileEstimation.Infrastructure.csproj",
+      "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\AgileEstimation.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\obj\\",
+      "outputPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -683,11 +754,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj": {
-              "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj"
+            "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj": {
+              "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj"
             },
-            "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
-              "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj"
+            "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
+              "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj"
             }
           }
         }
@@ -709,6 +780,10 @@
         "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
           "BCrypt.Net-Next": {
             "target": "Package",
             "version": "[4.2.0, )"
@@ -1015,5 +1090,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

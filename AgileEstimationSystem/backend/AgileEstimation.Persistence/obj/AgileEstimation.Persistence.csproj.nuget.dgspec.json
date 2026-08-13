@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj": {}
+    "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj": {}
   },
   "projects": {
-    "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj": {
+    "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj",
+        "projectUniqueName": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj",
         "projectName": "AgileEstimation.Application",
-        "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj",
+        "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\obj\\",
+        "outputPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
-                "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj"
+              "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj"
               }
             }
           }
@@ -56,6 +56,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[12.1.1, )"
@@ -355,14 +359,14 @@
         }
       }
     },
-    "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
+    "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj",
         "projectName": "AgileEstimation.Domain",
-        "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj",
+        "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\obj\\",
+        "outputPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -696,14 +700,14 @@
         }
       }
     },
-    "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj": {
+    "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj",
+        "projectUniqueName": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj",
         "projectName": "AgileEstimation.Persistence",
-        "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj",
+        "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\AgileEstimation.Persistence.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\obj\\",
+        "outputPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -725,11 +729,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj": {
-                "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj"
+              "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj": {
+                "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Application\\AgileEstimation.Application.csproj"
               },
-              "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
-                "projectPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj"
+              "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Planning Poker (Update)\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.Domain\\AgileEstimation.Domain.csproj"
               }
             }
           }

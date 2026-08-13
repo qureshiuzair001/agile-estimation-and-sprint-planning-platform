@@ -1,35 +1,35 @@
-﻿using AgileEstimation.Application.DTOs.Session;
+using AgileEstimation.Application.DTOs.Session;
 using AgileEstimation.Application.Interfaces;
 using AgileEstimation.Domain.Entities;
 using AgileEstimation.Domain.Enums;
+using AutoMapper;
 using System.Security.Cryptography;
 
 namespace AgileEstimation.Infrastructure.Services;
 
 public class SessionService : ISessionService
 {
+    private const int MaxSessionCodeGenerationAttempts = 20;
+
     private readonly ISessionRepository _sessionRepository;
     private readonly ISessionParticipantRepository _participantRepository;
+    private readonly IMapper _mapper;
 
     public SessionService(
         ISessionRepository sessionRepository,
-        ISessionParticipantRepository participantRepository)
+        ISessionParticipantRepository participantRepository,
+        IMapper mapper)
     {
         _sessionRepository = sessionRepository;
         _participantRepository = participantRepository;
+        _mapper = mapper;
     }
 
     public async Task<SessionResponse> CreateSessionAsync(
         Guid moderatorId,
         CreateSessionRequest request)
     {
-        string sessionCode;
-
-        do
-        {
-            sessionCode = GenerateSessionCode();
-        }
-        while (await _sessionRepository.GetByCodeAsync(sessionCode) != null);
+        var sessionCode = await GenerateUniqueSessionCodeAsync();
 
         var session = new Session(
             request.Title,
@@ -40,16 +40,10 @@ public class SessionService : ISessionService
 
         await _sessionRepository.SaveChangesAsync();
 
-        return new SessionResponse
-        {
-            Id = session.Id,
-            SessionCode = session.SessionCode,
-            Title = session.Title,
-            Status = session.Status.ToString()
-        };
+        return MapSession(session, moderatorId);
     }
 
-    public async Task<bool> JoinSessionAsync(
+    public async Task<SessionResponse?> JoinSessionAsync(
     Guid userId,
     JoinSessionRequest request)
     {
@@ -57,29 +51,33 @@ public class SessionService : ISessionService
             .GetByCodeAsync(request.SessionCode);
 
         if (session == null)
-            return false;
+            return null;
 
         if (session.Status == SessionStatus.Closed)
-            return false;
+            return null;
 
         var exists = await _participantRepository
             .ExistsAsync(session.Id, userId);
 
-        if (exists)
-            return false;
+        // Behavior change: previously re-joining an already-joined session
+        // returned failure. That made it impossible to safely retry a
+        // join (e.g. after a page refresh) — now it's idempotent: if
+        // you're already a participant, joining again just succeeds.
+        if (!exists)
+        {
+            var participant = new SessionParticipant(
+                session.Id,
+                userId);
 
-        var participant = new SessionParticipant(
-            session.Id,
-            userId);
+            await _participantRepository.AddAsync(participant);
 
-        await _participantRepository.AddAsync(participant);
+            await _participantRepository.SaveChangesAsync();
+        }
 
-        await _participantRepository.SaveChangesAsync();
-
-        return true;
+        return MapSession(session, userId);
     }
 
-    public async Task<SessionResponse?> GetSessionAsync(Guid sessionId)
+    public async Task<SessionResponse?> GetSessionAsync(Guid sessionId, Guid currentUserId)
     {
         var session =
             await _sessionRepository.GetByIdAsync(sessionId);
@@ -87,13 +85,27 @@ public class SessionService : ISessionService
         if (session == null)
             return null;
 
-        return new SessionResponse
-        {
-            Id = session.Id,
-            SessionCode = session.SessionCode,
-            Title = session.Title,
-            Status = session.Status.ToString()
-        };
+        return MapSession(session, currentUserId);
+    }
+
+    public async Task<SessionResponse?> GetSessionByCodeAsync(string sessionCode, Guid currentUserId)
+    {
+        var session = await _sessionRepository.GetByCodeAsync(sessionCode);
+
+        if (session == null)
+            return null;
+
+        return MapSession(session, currentUserId);
+    }
+
+    public async Task<List<SessionResponse>> GetSessionsForUserAsync(Guid userId)
+    {
+        var sessions = await _sessionRepository.GetSessionsForUserAsync(userId);
+
+        return sessions
+            .OrderByDescending(s => s.CreatedAt)
+            .Select(s => MapSession(s, userId))
+            .ToList();
     }
 
     public async Task<List<ParticipantResponse>>
@@ -103,16 +115,7 @@ public class SessionService : ISessionService
             await _participantRepository
                 .GetParticipantsAsync(sessionId);
 
-        return participants
-            .OrderByDescending(p => p.IsOnline)
-            .ThenBy(p => p.User.Username)
-            .Select(p => new ParticipantResponse
-            {
-                UserId = p.UserId,
-                Username = p.User.Username,
-                IsOnline = p.IsOnline
-            })
-            .ToList();
+        return MapParticipants(participants);
     }
 
     public async Task LeaveSessionAsync(
@@ -131,7 +134,27 @@ public class SessionService : ISessionService
         await _participantRepository.SaveChangesAsync();
     }
 
-    public async Task CloseSessionAsync(
+    public async Task<List<ParticipantResponse>> LeaveSessionByCodeAsync(
+        string sessionCode,
+        Guid userId)
+    {
+        var session = await _sessionRepository.GetByCodeAsync(sessionCode);
+
+        if (session == null)
+            return new List<ParticipantResponse>();
+
+        var participant = await _participantRepository.GetAsync(session.Id, userId);
+
+        if (participant != null)
+        {
+            _participantRepository.Remove(participant);
+            await _participantRepository.SaveChangesAsync();
+        }
+
+        return await GetParticipantsAsync(session.Id);
+    }
+
+    public async Task<string?> CloseSessionAsync(
     Guid sessionId,
     Guid moderatorId)
     {
@@ -139,16 +162,52 @@ public class SessionService : ISessionService
             await _sessionRepository.GetByIdAsync(sessionId);
 
         if (session == null)
-            return;
+            return null;
 
         if (session.ModeratorId != moderatorId)
-            return;
+            return null;
 
         session.Close();
 
         _sessionRepository.Update(session);
 
         await _sessionRepository.SaveChangesAsync();
+
+        return session.SessionCode;
+    }
+
+    public async Task<bool> IsModeratorAsync(Guid sessionId, Guid userId)
+    {
+        var session = await _sessionRepository.GetByIdAsync(sessionId);
+        return session != null && session.ModeratorId == userId;
+    }
+
+    public async Task<bool> IsModeratorByCodeAsync(string sessionCode, Guid userId)
+    {
+        var session = await _sessionRepository.GetByCodeAsync(sessionCode);
+        return session != null && session.ModeratorId == userId;
+    }
+
+    /// <summary>
+    /// Previously an unbounded do/while — with a 6-character, 33-symbol
+    /// alphabet (~1.3 billion combinations) a collision is practically a
+    /// non-issue at any realistic scale, but an unbounded retry meant a
+    /// pathological case (or a future bug that narrows the alphabet)
+    /// could hang a request indefinitely instead of failing fast (see
+    /// Part 1 review, finding 3.10). Now it fails loudly instead.
+    /// </summary>
+    private async Task<string> GenerateUniqueSessionCodeAsync()
+    {
+        for (var attempt = 0; attempt < MaxSessionCodeGenerationAttempts; attempt++)
+        {
+            var candidate = GenerateSessionCode();
+
+            if (await _sessionRepository.GetByCodeAsync(candidate) == null)
+                return candidate;
+        }
+
+        throw new InvalidOperationException(
+            "Could not generate a unique session code after multiple attempts.");
     }
 
     private static string GenerateSessionCode()
@@ -189,7 +248,7 @@ public class SessionService : ISessionService
         await _participantRepository.SaveChangesAsync();
     }
 
-    public async Task<List<ParticipantResponse>?> HandleDisconnectAsync(
+    public async Task<DisconnectResult?> HandleDisconnectAsync(
     string connectionId)
     {
         var participant =
@@ -199,22 +258,9 @@ public class SessionService : ISessionService
         if (participant == null)
             return null;
 
-        participant.Disconnect();
+        var sessionCode = await _sessionRepository.GetSessionCodeAsync(participant.SessionId);
 
-        _participantRepository.Update(participant);
-
-        await _participantRepository.SaveChangesAsync();
-
-        return await GetParticipantsAsync(participant.SessionId);
-    }
-
-    public async Task<List<ParticipantResponse>?> HandleDisconnectAndGetParticipantsAsync(
-    string connectionId)
-    {
-        var participant =
-            await _participantRepository.GetByConnectionIdAsync(connectionId);
-
-        if (participant == null)
+        if (sessionCode == null)
             return null;
 
         participant.Disconnect();
@@ -223,8 +269,30 @@ public class SessionService : ISessionService
 
         await _participantRepository.SaveChangesAsync();
 
-        return await GetParticipantsAsync(participant.SessionId);
+        return new DisconnectResult
+        {
+            SessionCode = sessionCode,
+            Participants = await GetParticipantsAsync(participant.SessionId)
+        };
     }
 
+    private SessionResponse MapSession(Session session, Guid currentUserId)
+    {
+        return _mapper.Map<SessionResponse>(
+            session,
+            opts => opts.Items["currentUserId"] = currentUserId);
+    }
 
+    private List<ParticipantResponse> MapParticipants(
+        IEnumerable<SessionParticipant> participants)
+    {
+        // Ordering is business logic (online-first, then alphabetical) and
+        // stays here; only the per-item entity → DTO shape now goes
+        // through AutoMapper (see MappingProfile).
+        return participants
+            .OrderByDescending(p => p.IsOnline)
+            .ThenBy(p => p.User.Username)
+            .Select(p => _mapper.Map<ParticipantResponse>(p))
+            .ToList();
+    }
 }

@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+
+  body {
+    @apply bg-parchment-50 text-ink-900 font-sans dark:bg-felt-900 dark:text-parchment-50;
+    /* Defensive: nothing should legitimately need horizontal scroll on
+       this app's pages — this catches any element that would otherwise
+       force one on a narrow viewport instead of wrapping/scrolling
+       internally. */
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+
+  /* Visible keyboard focus everywhere — never remove this without a replacement. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-chip-400 ring-offset-2 ring-offset-parchment-50 dark:ring-offset-felt-900;
+  }
+
+  ::selection {
+    @apply bg-chip-200 text-ink-900;
+  }
+}
+
+@layer utilities {
+  /* Subtle felt-table texture used behind the Planning Room. Signature visual element. */
+  .bg-felt-texture {
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.04), transparent 40%),
+      radial-gradient(circle at 80% 60%, rgba(255, 255, 255, 0.03), transparent 45%);
+    background-color: theme("colors.felt.800");
+  }
+
+  /* 3D flip-card mechanics for the poker card component. */
+  .card-flip-perspective {
+    perspective: 1200px;
+  }
+
+  .card-flip-inner {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .card-flip-inner.is-revealed {
+    transform: rotateY(180deg);
+  }
+
+  .card-flip-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .card-flip-face-back {
+    transform: rotateY(180deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

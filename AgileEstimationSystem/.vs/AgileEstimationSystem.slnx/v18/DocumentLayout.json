@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\agile-estimation-and-sprint-planning-platform\\AgileEstimationSystem\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\agile-estimation-system\\AgileEstimationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|c:\\users\\user\\onedrive\\desktop\\agile-estimation-system\\agileestimationsystem\\backend\\agileestimation.api\\hubs\\planningpokerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F58B67F-402B-DE68-438E-F88AB604F5E7}|backend\\AgileEstimation.API\\AgileEstimation.API.csproj|solutionrelative:backend\\agileestimation.api\\hubs\\planningpokerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanningPokerHub.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Hubs\\PlanningPokerHub.cs",
+              "RelativeDocumentMoniker": "backend\\AgileEstimation.API\\Hubs\\PlanningPokerHub.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\agile-estimation-system\\AgileEstimationSystem\\backend\\AgileEstimation.API\\Hubs\\PlanningPokerHub.cs",
+              "RelativeToolTip": "backend\\AgileEstimation.API\\Hubs\\PlanningPokerHub.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAADwv7QAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T09:17:59.681Z",
+              "EditorCaption": ""
             }
           ]
         }
